@@ -2,8 +2,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
-  color: #776e65;
+  background: purple;
+  color: #d3ffce;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
@@ -52,7 +52,8 @@ h1.title {
   font-weight: bold;
   margin: 0;
   display: block;
-  float: left; }
+  float: left;
+  color: pink }
 
 @-webkit-keyframes move-up {
   0% {
@@ -85,14 +86,14 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #bbada0;
+  background: purple;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
   line-height: 47px;
   font-weight: bold;
   border-radius: 3px;
-  color: white;
+  color: pink;
   margin-top: 8px;
   text-align: center; }
   .score-container:after, .best-container:after {
@@ -199,7 +200,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #bbada0;
+  background: ##d3ffce;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -392,60 +393,85 @@ hr {
     z-index: 10;
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
+    color: teal ;
     background: #eee4da;
+    background: url('../bella/1.jpg');
+    background-size: 100%;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
+    color: #eabcff ;
     background: #ede0c8;
+    background: url('../bella/2.jpg');
+    background-size: 100%;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
-    color: #f9f6f2;
-    background: #f2b179; }
+    color: #d3ffce ;
+    background: #f2b179; 
+    background: url('../bella/3.jpg');
+    background-size: 100%; }
   .tile.tile-16 .tile-inner {
-    color: #f9f6f2;
-    background: #f59563; }
+    color: #ffe4e1 ;
+    background: #f59563; 
+    background: url('../bella/4.jpg');
+    background-size: 100%; }
   .tile.tile-32 .tile-inner {
-    color: #f9f6f2;
-    background: #f67c5f; }
+    color: pink ;
+    background: #f67c5f; 
+    background: url('../bella/5.jpg');
+    background-size: 100% }
   .tile.tile-64 .tile-inner {
-    color: #f9f6f2;
-    background: #f65e3b; }
+    color: #f0f8ff ;
+    background: #f65e3b;
+    background: url('../bella/6.jpg');
+    background-size: 100% }
   .tile.tile-128 .tile-inner {
-    color: #f9f6f2;
+    color: #7fffd4 ;
     background: #edcf72;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
-    font-size: 45px; }
+    font-size: 45px;
+    background: url('../bella/7.jpg');
+    background-size: 100% }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
-        font-size: 25px; } }
+        font-size: 25px;
+        background:  } }
   .tile.tile-256 .tile-inner {
-    color: #f9f6f2;
+    color: #00ffff ;
     background: #edcc61;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
-    font-size: 45px; }
+    font-size: 45px;
+    background: url('../bella/8.jpg');
+    background-size: 100% }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
         font-size: 25px; } }
   .tile.tile-512 .tile-inner {
-    color: #f9f6f2;
+    color: #bf3eff ;
     background: #edc850;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
-    font-size: 45px; }
+    font-size: 45px;
+    background: url('../bella/9.jpg');
+    background-size: 100% }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
         font-size: 25px; } }
   .tile.tile-1024 .tile-inner {
-    color: #f9f6f2;
+    color: #FF6A6A ;
     background: #edc53f;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
-    font-size: 35px; }
+    font-size: 35px;
+    background: url('../bella/10.jpg');
+    background-size: 100% }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
         font-size: 15px; } }
   .tile.tile-2048 .tile-inner {
-    color: #f9f6f2;
+    color: #ffa07a ;
     background: #edc22e;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
-    font-size: 35px; }
+    font-size: 35px;
+    background: url('../bella/11.jpg');
+    background-size: 100% }
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
         font-size: 15px; } }
